@@ -1,0 +1,54 @@
+{
+    "name": "kayintveen/laravel-paynl",
+    "description": "A clean and professional Laravel wrapper for Pay.nl payment gateway integration",
+    "keywords": [
+        "laravel",
+        "paynl",
+        "pay.nl",
+        "payment",
+        "gateway",
+        "laravel-11",
+        "laravel-12",
+        "php"
+    ],
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Kay in 't Veen",
+            "email": "k.veen@microdesign.nl"
+        }
+    ],
+    "require": {
+        "php": "^8.1|^8.2|^8.3",
+        "illuminate/support": "^11.0|^12.0",
+        "paynl/sdk": "^1.0"
+    },
+    "require-dev": {
+        "laravel/pint": "^1.0",
+        "orchestra/testbench": "^9.0",
+        "phpunit/phpunit": "^10.0|^11.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "Kayintveen\\LaravelPayNL\\": "src/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "Kayintveen\\LaravelPayNL\\Tests\\": "tests/"
+        }
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Kayintveen\\LaravelPayNL\\PayNLServiceProvider"
+            ],
+            "aliases": {
+                "PayNL": "Kayintveen\\LaravelPayNL\\Facades\\PayNL"
+            }
+        }
+    },
+    "minimum-stability": "stable",
+    "prefer-stable": true
+}
