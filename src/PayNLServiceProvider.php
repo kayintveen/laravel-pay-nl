@@ -19,7 +19,7 @@ class PayNLServiceProvider extends ServiceProvider
         $this->app->singleton('paynl', function ($app) {
             $config = $app['config']['paynl'];
 
-            return new PayNLClient(
+            return new PayNL(
                 tokenCode: $config['token_code'] ?? '',
                 apiToken: $config['api_token'] ?? '',
                 serviceId: $config['service_id'] ?? '',

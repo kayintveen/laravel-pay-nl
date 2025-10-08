@@ -146,12 +146,12 @@ echo $qr->getQrUrl(); // URL to QR code image
 Instead of the facade, you can also inject the `PayNLClient` directly:
 
 ```php
-use Kayintveen\LaravelPayNL\PayNLClient;
+use Kayintveen\LaravelPayNL\PayNL;
 
 class PaymentController extends Controller
 {
     public function __construct(
-        protected PayNLClient $payNL
+        protected PayNL $payNL
     ) {}
 
     public function createPayment()
