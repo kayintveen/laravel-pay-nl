@@ -2,6 +2,8 @@
 
 [![Latest Version on Packagist](https://img.shields.io/packagist/v/kayintveen/laravel-paynl.svg?style=flat-square)](https://packagist.org/packages/kayintveen/laravel-paynl)
 [![Total Downloads](https://img.shields.io/packagist/dt/kayintveen/laravel-paynl.svg?style=flat-square)](https://packagist.org/packages/kayintveen/laravel-paynl)
+[![GitHub Tests Action Status](https://img.shields.io/github/actions/workflow/status/kayintveen/laravel-paynl/tests.yml?branch=main&label=tests&style=flat-square)](https://github.com/kayintveen/laravel-paynl/actions?query=workflow%3Atests+branch%3Amain)
+[![GitHub Code Style Action Status](https://img.shields.io/github/actions/workflow/status/kayintveen/laravel-paynl/pint.yml?branch=main&label=code%20style&style=flat-square)](https://github.com/kayintveen/laravel-paynl/actions?query=workflow%3Apint+branch%3Amain)
 [![License](https://img.shields.io/packagist/l/kayintveen/laravel-paynl.svg?style=flat-square)](https://packagist.org/packages/kayintveen/laravel-paynl)
 
 A clean, modern, and professional Laravel wrapper for the [Pay.nl](https://www.pay.nl) payment gateway. This package provides a fluent interface for integrating Pay.nl payments into your Laravel 11 and Laravel 12 applications.
